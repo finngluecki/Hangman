@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Hangman.ViewController">
+  <children>
+    <Line fx:id="line1" endX="68.0" endY="1.0" layoutX="468.0" layoutY="323.0" startX="-108.0" startY="0.0" visible="false" />
+    <Line fx:id="line2" endX="100.0" endY="-1.0" layoutX="351.0" layoutY="326.0" startX="99.0" startY="-206.0" visible="false" />
+    <Line fx:id="line3" endX="100.0" layoutX="349.0" layoutY="119.0" startX="10.0" startY="0.0" visible="false" />
+    <Line id="line3" fx:id="line4" endX="38.0" endY="1.0" layoutX="413.0" layoutY="168.0" startX="-1.0" startY="-48.0" visible="false" />
+    <Line id="line" fx:id="line5" endX="100.0" endY="0.0" layoutX="260.0" layoutY="119.0" startX="100.0" startY="35.0" visible="false" />
+    <Circle fx:id="line6" fill="WHITE" layoutX="361.0" layoutY="180.0" radius="25.20709228515625" stroke="BLACK" strokeType="INSIDE" visible="false" />
+    <Line fx:id="line7" endX="100.0" layoutX="260.0" layoutY="206.0" startX="100.0" startY="45.0" visible="false" />
+    <Line fx:id="line11" endX="-67.0" endY="-29.0" layoutX="427.0" layoutY="278.0" startX="-98.0" startY="11.0" visible="false" />
+    <Line fx:id="line10" endX="96.0" endY="-2.0" layoutX="296.0" layoutY="293.0" startX="65.0" startY="-43.0" visible="false" />
+    <Line fx:id="line8" endX="100.0" layoutX="260.0" layoutY="228.0" startX="66.0" startY="-30.0" visible="false" />
+    <Line fx:id="line9" endX="-64.0" endY="-31.0" layoutX="461.0" layoutY="228.0" startX="-100.0" visible="false" />
+    <Label fx:id="solution" layoutX="112.0" layoutY="137.0" prefWidth="195.0" text="">
+      <font>
+        <Font size="20.0" />
+      </font>
+    </Label>
+    <Label layoutX="70.0" layoutY="284.0" onMouseClicked="#test" text="A" />
+    <Label layoutX="80.0" layoutY="284.0" onMouseClicked="#test" text="B" />
+    <Label layoutX="90.0" layoutY="284.0" onMouseClicked="#test" text="C" />
+    <Label layoutX="100.0" layoutY="284.0" onMouseClicked="#test" text="D" />
+    <Label layoutX="110.0" layoutY="284.0" onMouseClicked="#test" text="E" />
+    <Label layoutX="120.0" layoutY="284.0" onMouseClicked="#test" text="F" />
+    <Label layoutX="130.0" layoutY="284.0" onMouseClicked="#test" text="G" />
+    <Label layoutX="140.0" layoutY="284.0" onMouseClicked="#test" text="H" />
+    <Label layoutX="153.0" layoutY="284.0" onMouseClicked="#test" text="I" />
+    <Label layoutX="160.0" layoutY="284.0" onMouseClicked="#test" text="J" />
+    <Label layoutX="170.0" layoutY="284.0" onMouseClicked="#test" text="K" />
+    <Label layoutX="180.0" layoutY="284.0" onMouseClicked="#test" text="L" />
+    <Label layoutX="190.0" layoutY="284.0" onMouseClicked="#test" text="M" />
+    <Label layoutX="204.0" layoutY="284.0" onMouseClicked="#test" text="N" />
+    <Label layoutX="67.0" layoutY="305.0" onMouseClicked="#test" text="O" />
+    <Label layoutX="77.0" layoutY="305.0" onMouseClicked="#test" text="P" />
+    <Label layoutX="87.0" layoutY="305.0" onMouseClicked="#test" text="Q" />
+    <Label layoutX="97.0" layoutY="305.0" onMouseClicked="#test" text="R" />
+    <Label layoutX="108.0" layoutY="305.0" onMouseClicked="#test" text="S" />
+    <Label layoutX="117.0" layoutY="305.0" onMouseClicked="#test" text="T" />
+    <Label layoutX="127.0" layoutY="305.0" onMouseClicked="#test" text="U" />
+    <Label layoutX="137.0" layoutY="305.0" onMouseClicked="#test" text="V" />
+    <Label layoutX="147.0" layoutY="305.0" onMouseClicked="#test" text="W" />
+    <Label layoutX="157.0" layoutY="305.0" onMouseClicked="#test" text="X" />
+    <Label layoutX="167.0" layoutY="305.0" onMouseClicked="#test" text="Y" />
+    <Label layoutX="178.0" layoutY="305.0" onMouseClicked="#test" text="Z" />
+    <Label layoutX="187.0" layoutY="305.0" onMouseClicked="#test" text="Ö" />
+    <Label layoutX="199.0" layoutY="305.0" onMouseClicked="#test" text="Ä" />
+    <Label layoutX="208.0" layoutY="305.0" onMouseClicked="#test" text="Ü" />
+  </children>
+</AnchorPane>
